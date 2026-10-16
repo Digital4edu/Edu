@@ -1,0 +1,6 @@
+{
+  "name": "Laboratorio Interattivo di Machine Learning & Data Science",
+  "description": "Piattaforma didattica interattiva per studenti: manipolazione dataset in tempo reale, analisi statistica descrittiva, confini di decisione k-NN/Reti Neurali, correlazioni e collaudo predizioni.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
