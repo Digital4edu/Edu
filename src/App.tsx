@@ -27,7 +27,7 @@ export default function App() {
   const [isChallengesOpen, setIsChallengesOpen] = useState<boolean>(false);
 
   // Core Dataset State
-  const [dataset, setDataset] = useState<DataPoint[]>(() => getPresetDataset('pets_balanced'));
+  const [dataset, setDataset] = useState<DataPoint[]>([]);
   const [xAxisFeature, setXAxisFeature] = useState<FeatureKey>('orecchie');
   const [yAxisFeature, setYAxisFeature] = useState<FeatureKey>('baffi');
   const [normMode, setNormMode] = useState<NormalizationMode>('none');
